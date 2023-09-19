@@ -1,0 +1,13 @@
+1c41b45 new file added
+69fab97 committed new features
+b6c7abe Nothing new
+06681d5 Merge branch 'features' I merged this.
+07c5109 Added text
+147bdb1 Whatever I want
+d09c309 Whatever I want
+f081fe4 add empty file
+d0f98a7 This is a git commit
+bc4f651 committing Readme
+8c5851f added some new text
+4677055 added text
+8e16312 create new files

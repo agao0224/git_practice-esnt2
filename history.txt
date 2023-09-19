@@ -1,0 +1,103 @@
+   18  git --version
+   19  git config --global use.name Adam Gao
+   20  git config --global user.email agao0224@gmail.com
+   21  git config --global core.editor "code --wait"
+   22  git config --global init.defaultBrach main
+   27  cd git practice
+   28  cd git_practice
+   31  git status
+   32  git add file_1.txt
+   33  git add file_2.txt
+   34  git status
+   35  git commit -file_1.txt -m "create new files"
+   36  git commit -file_2.txt -m "create new files"
+   37  git status
+   38  git commit -a -file_2.txt -m "create new files"
+   39  git commit -a -m "create new files"
+   40  git status
+   41  git status
+   42  git log
+   43  git commit -m "create new files"
+   44  git status
+   45  git log
+   46  git status
+   47  git commit file_2.txt -m "added text"
+   48  git remote add origin https://github.com/agao0224/git_practice-esnt2.git
+   49  git push -u origin main 
+   50  git log
+   52  git commit file_1.txt -m "added some new text"
+   53  git log
+   56  git add Readme.md 
+   57  git commit Readme.md -m "committing Readme"
+   59  git status
+   60  git log
+   62  touch .gitignore
+   63  nano .gitignore
+   64  git add .gitignore
+   65  git commit .gitignore
+   67  git status 
+   69  git branch "features"
+   70  git branch 
+   71  git log
+   73  git add
+   74  git commit new_features.txt -m "add empty file"
+   75  git add new_features.txt
+   76  git commit new_features.txt -m "add empty file"
+   78  git commit new_features.txt -m "Whatever I want"
+   79  git branch
+   80  git switch features 
+   81  git add new_features.txt
+   83  git add new_features.txt
+   85  git commit new_features.txt -m "Whatever I want"
+   86  git switch master 
+   88  git commit file_1.txt -m "Added text"
+   89  git merge features
+   90  git log
+   91  git log
+   94  cd git_practice
+   95  git log
+   96  git branch
+   99  git switch features
+  100  git merge features
+  101  git branch --delete features
+  102  git branch --delete features
+  103  git branch -D features
+  104  git remote add origin git@github.com:agao0224/git_practice-esnt2.git
+  105  git push -u origin main
+  106  git pull origin main
+  107  git pull origin master
+  108  git push -u origin master
+  109  git branch feature -agao0224
+  110  git branch 
+  111  git branch feature-agao0224
+  112  git branch
+  116  git clone git@github.com:agao0224/git-practice-esnt2.git
+  120  cd git_practice
+  123  git add new_file 
+  124  git commit new_file -m "new file added"
+  125  git merge features
+  126  git merge features
+  127  git merge features
+  128  git commit new_file -m
+  129  git commit new_file -m "new file added"
+  130  git status
+  131  git commit -m "new file added"
+  137  cd git-practice-esnt2/
+  138  git branch feature-agao0224
+  140  git add touch new_file.txt
+  141  git add new_file.txt
+  142  git commit new_file.txt -m "new file added"
+  143  git commit -m "new file added"
+  144  git push origin feature-agao0224
+  146  git switch feature-agao0224 
+  147  git push origin feature-agao0224
+  150  git commit -m "edited new file again"
+  151  git add new_file2.txt
+  152  git commit -m "new file added again"
+  153  git push origin feature-agao0224
+  154  git pull 
+  156  rm -rf git-practice-esnt2
+  157  git clone git@github.com:agao0224/git-practice-esnt2.git
+  163  cd git_practice
+  164  git log --oneline >gitlog.txt
+  165  history | grep git > history.txt
